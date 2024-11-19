@@ -54,7 +54,7 @@ int main()
 	{
 		/*functionOne is called inside the try block, which creates object 1 and calls
 		functionTwo. Then, functionTwo creates object 2 and calls functionThree. functionThree
-		then creates object three and throws and exception. When the exception is thrown, the
+		then creates object three and throws an exception. When the exception is thrown, the
 		stack unwinds and the obects are destroyed in the reverse order from what they were
 		created in.*/
 		functionOne();
